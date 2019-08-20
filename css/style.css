@@ -39,8 +39,15 @@ body {
   width: 9rem; }
 
 .nick {
-  background-color: black;
-  grid-column: col-start 5/ full-end; }
+  background-color: #AAAAAA;
+  grid-column: col-start 5/ full-end;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.avatar {
+  height: 40rem;
+  width: 40rem; }
 
 .header {
   grid-column: full-start / col-end 4;
@@ -60,23 +67,57 @@ body {
     margin-left: 3px;
     font-family: "Karla", sans-serif; }
   .header__logo {
-    height: 3rem;
+    height: 7rem;
     align-self: center; }
   .header__text {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: #aaa;
     font-family: "Josefin Sans", sans-serif; }
-  .header__city img {
+  .header-city__location {
     height: 2.5rem;
-    background-color: green; }
+    width: 2.5rem; }
+  .header-city__current {
+    font-size: 1.2rem;
+    font-display: "Karla", sans-serif; }
+  .header-city__location {
+    font-size: 1.6rem;
+    font-display: "Oswald", sans-serif; }
 
 .features {
   background-color: fuchsia;
   grid-column: center-start / center-end; }
 
 .footer {
-  background-color: aqua;
-  grid-column: full-start/full-end; }
+  background-image: linear-gradient(90deg, #40424b, #1c1d24);
+  grid-column: full-start/full-end;
+  padding: 8rem; }
+
+.footer-text-1 {
+  color: #AAAAAA;
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Josefin Sans", sans-serif; }
+
+.footer-text-2 {
+  color: #AAAAAA;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Josefin Sans", sans-serif; }
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+  .nav__link:link, .nav__link:visited {
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 4rem; }
+    .nav__link:link svg, .nav__link:visited svg {
+      height: 2.5rem;
+      width: 2.5rem; }
 
 .projects {
   background-color: red;
