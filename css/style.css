@@ -476,7 +476,7 @@ body {
   background: #101010;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .cards {
@@ -601,7 +601,8 @@ body {
   position: relative;
   color: #777;
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
