@@ -466,9 +466,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -476,6 +476,7 @@ body {
   background: #101010;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 2rem;
 }
 
 .cards {
@@ -600,12 +601,13 @@ body {
   position: relative;
   color: #777;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  text-align: center;
 }
 
 .card:hover .card__text {
