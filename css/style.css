@@ -222,12 +222,8 @@ body {
         filter: grayscale(0%);
         opacity: 1; } }
   .feature-5 {
-    background: #c31432;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #240b36, #c31432);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(117, 19, 93, 0.33)), url(../img/codesavr.png) bottom center no-repeat;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     filter: grayscale(70%);
@@ -244,7 +240,7 @@ body {
   .feature-6 {
     background: #ad5389;
     /* fallback for old browsers */
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(117, 19, 93, 0.33)), url(../img/wildeagles.png) bottom center no-repeat;
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(117, 19, 93, 0.33)), url(../img/amazon.png) bottom center no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -411,17 +407,17 @@ body {
   stroke: #E44D26; }
 
 .card:nth-child(2) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 80)/100);
+  stroke-dashoffset: calc(440 - (440 * 90)/100);
   stroke: #254BDE; }
 
 .card:nth-child(3) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 70)/100);
+  stroke-dashoffset: calc(440 - (440 * 85)/100);
   stroke: #F0D91D; }
 
 .card:nth-child(4) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 70)/100);
+  stroke-dashoffset: calc(440 - (440 * 90)/100);
   stroke: #00D8FF; }
 
 .card:nth-child(5) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 65)/100);
+  stroke-dashoffset: calc(440 - (440 * 80)/100);
   stroke: #F72ABC; }
